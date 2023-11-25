@@ -1,0 +1,38 @@
+.grey-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(212, 45%, 89%);
+  width: 1440px;
+  height: auto;
+  padding: 10%;
+}
+.content-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  border-radius: 10px;
+  width: 25%;
+  height: fit-content;
+  padding: 5px;
+}
+.qr-code {
+  border-radius: 5px;
+  width: 100%;
+}
+
+p {
+  text-align: center;
+  font-family: "Outfit", sans-serif;
+}
+.upper {
+  font-weight: 700;
+  font-size: 20px;
+}
+.lower {
+  font-weight: 400;
+  font-size: 15px;
+  color: hsl(220, 15%, 55%);
+}
